@@ -1,7 +1,7 @@
 # MQTT-Broker
 
 bathroom/kitchen/livingroom/terrace/garden
-    skripte, die das Senden von einzelnen Sensoren simulieren. Dabei wurde hier jeweils eine feste objectID eingetragen und die Sensordaten werden random erstellt.
+    skripte, die das Senden von einzelnen Sensoren simulieren. Dabei wird hier jeweils eine feste objectID eingetragen und die Sensordaten werden random erstellt.
     Somit können auch einzelne Räume gestartet werden.
     
 complete 
@@ -21,3 +21,6 @@ new_Client
     In diesem Fall ist der neue Client ein Aktor, welcher eine LED ein und aus schaltet.
     
     
+Funktionalität 
+    Um das Programm von dieser Seite aus testen zu können, muss lediglich auf dem Broker das complete.py Skript gestartet werden.
+    Um einem neuen Client eine objectID zuweisen zu können, muss das Skript dummythread.py laufen und im Anschluss ein neuer Client gestartet werden.
